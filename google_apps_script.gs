@@ -1,5 +1,5 @@
 var SHEET_NAME='results';
-var VALID_SETS=['history1','history2','tech'];
+var VALID_SETS=['history1','history2','tech','tech_easy'];
 function sheet_(){
  var ss=SpreadsheetApp.getActiveSpreadsheet();
  var s=ss.getSheetByName(SHEET_NAME)||ss.insertSheet(SHEET_NAME);
